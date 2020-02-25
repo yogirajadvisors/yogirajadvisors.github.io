@@ -1,0 +1,353 @@
+        .mb-0{
+                margin-bottom:0;
+            }
+            h3{
+                font-family: 'Raleway', sans-serif;
+                font-weight: 700;
+            }
+            .icons{ 
+                margin-bottom: 10px;
+                box-shadow: 0 14px 15px -15px #000;
+                padding-bottom: 5px;
+            }
+
+            ul{
+                list-style:none;
+                padding:0;
+                margin:0;
+                text-align:center;
+            }
+            ul li{
+                display:inline-block;
+                margin:0;
+                padding:0;
+            }
+            #my-drpdwn #about ul{
+                list-style:none;
+                padding:0;
+                margin:0;
+                text-align:left;
+            }
+            #my-drpdwn #about ul li:before{
+                position:absolute;
+                content: '\f138';
+                font-family:FontAwesome;
+                color:#f58634;
+                left:0;
+            }
+         
+            #my-drpdwn #about ul li{
+                    position:relative;
+                    font-size: 14px;
+                    color: #000;
+                    display:block;
+                    padding-bottom: 8px;
+                    padding-left:30px;
+            }
+            .icon-single{
+                margin: 5px 1vw;
+                width: 12vw;
+                height: 12vw;
+                border-radius: 50%;
+                background-color:  #fa9c56;
+                border: 1vw solid #f58634;
+                padding-top: 2px;
+            }
+            .icon-single a{
+                color:#fff;
+                font-size: 6vw;
+            }
+            .sepr{
+                height: 1px;
+                margin: 5px 0;
+                float: left;
+            }
+            #sepr-center{
+                width:80%;
+                background-color:#ccc;
+            }
+            #sepr-left{
+                width:10%;
+                background-image: linear-gradient(to left,#ccc , #fff);
+            }
+            #sepr-right{
+                width:10%;
+                background-image: linear-gradient(to right,#ccc , #fff);
+            }
+            #main-icon{
+                margin-top:20px;
+                margin-bottom:10px;
+                padding:0 20px;
+            }
+            #main-icon > div > div{
+                width:34%;
+                float:left;
+                padding:0;
+            }
+            #main-icon a > span{
+                text-align:center;
+            }
+            #main-icon > div > div:first-child{
+                width:30%;
+            }
+            #main-icon > div:after,#main-icon > div > div:after{
+                display: block;
+                clear: both;
+                content: "";
+            }
+            #main-icon > div > div:not(:last-child){
+                border-right:1px solid #ccc;
+            }
+            #main-icon > div > div:not(:first-child){
+                border-left:1px solid #ccc;
+            }
+            #main-icon span h5,#services{
+                margin-bottom:5px;
+            }
+            #main-icon span{
+                color:#000;
+                font-size:2.4vw;
+                margin: 0 auto;
+                display: block;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 500;
+            }
+            #main-icon h5 i{
+                color:#f58634;
+            }
+
+            #address,#services{
+                padding:10px 20px;
+            }
+            #address h3 i,#services h3 i{
+                color:#f58634;
+            }
+            #services ul{
+                width:100%;
+                float:left;
+                padding-left:30px;
+            }
+            #services ul h5{
+                text-align: left;
+                margin-top: 15px;
+            }
+            #services ul li{
+                list-style:disc;
+                display:list-item;
+                text-align:left;
+                font-size: 3.5vw;
+                 font-family: 'Raleway', sans-serif;
+                font-weight: 400;
+                
+            }
+            #my-drpdwn .card-header i{
+                top: 17px;
+                position: absolute;
+                right: 20px;
+            }
+            .card-header{
+                color:#424242;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 500;
+            }
+            .card-body p span, .card-body ul li span{
+                color:#f58634;
+            }
+            .card-body img{
+                margin:10px 0;
+            }
+            #address a{
+                color:#000;
+                text-decoration:none;
+            }
+            #address p{
+                font-size:3.7vw;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 400;
+            }
+            #main-icon a{
+                text-decoration:none;
+            }
+            #about p{
+                font-size:14px;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 400;
+            }
+            #photos .modal-content{
+                background-color:transparent;
+                border:none;
+            }
+            .share li img{
+                width:15vw;
+                border-radius:15px;
+            }
+            .footer{
+                padding:5px 10px;
+            }
+            .footer img{
+                width:5vw;
+            }
+            .footer > p{
+                margin-bottom: 0px !important;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 400;
+            }
+            .footer > hr{
+                margin-top : 0.5rem !important;
+                margin-bottom: 0px !important;
+            }
+            .header{
+                padding:50px;
+                border-top:20px solid #f58634;
+                border-bottom:20px solid #f58634;
+            }
+            .header img{
+                margin:0 auto;
+                display:block;
+                width:90%;
+            }
+            .bottom-header{
+                -moz-box-shadow: 0 15px 25px -15px #ccc;
+                -webkit-box-shadow: 0 15px 25px -15px #ccc;
+                box-shadow: 0 15px 25px -15px #ccc;
+                min-height: 20vw;
+            }
+            .bottom-header img{
+                border: 1vw solid #ccc;
+                border-radius: 50%;
+                float: left;
+                width: 30%;
+                margin-left: 2%;
+                margin-top: -15px;
+            }
+            .bottom-header span{
+                float: left;
+                width: 65%;
+                margin-left: 3%;
+                margin-top:4vw;
+            }
+            .mt{
+                margin-top:6vw;
+            }
+            .bottom-header address{
+                font-size:3vw;
+            }
+            .bottom-header h4{
+                font-size:5vw;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 700;
+            }
+            #share .card-body{
+                overflow-y:auto;
+                max-height:470px;
+            }
+            #photos .card-body{
+                overflow-y:auto;
+                max-height:470px;
+            }
+            @media (min-width:567px){
+                .mobile{
+                    border:10px solid #f58634;
+                    margin:80px 0 80px 150px;
+                    max-width:520px;
+                    box-shadow:5px 5px 20px;
+                }
+                .bottom-header img{
+                    border: 5px solid #ccc;
+                }
+                .bottom-header{
+                    min-height: 100px;
+                }
+                .bottom-header span{
+                    margin-top:20px;
+                }
+                .mt{
+                    margin-top:30px;
+                }
+                .bottom-header address{
+                    font-size:15px;
+                }
+                .bottom-header h4{
+                    font-size:25px;
+                }
+                .icon-single{
+                    margin: 5px 5px;
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    border: 5px solid #f58634;
+                }
+                .icon-single a{
+                    font-size: 30px;
+                }
+                #main-icon span{
+                    font-size:11px;
+                }
+                #services ul li{
+                    font-size: 14px;
+                }
+                #address p{
+                    font-size:19px;
+                }
+                #about p{
+                    font-size:14px;
+                }
+                .share li img{
+                    width:75px;
+                }
+                .footer img{
+                    width:25px;
+                }
+                .footer > p{
+                    margin-bottom: 0px !important;
+                }
+                .footer > hr{
+                    margin-top : 0.5rem !important;
+                    margin-bottom: 0px !important;
+                }
+                .thankyou{
+                    position: absolute;
+                    top: 30vh;
+                    right: 15vw;
+                    text-align:center;
+                }
+                .thankyou h1{
+                    font-size: 3vw;
+                }
+            }
+            @media (min-width:1200px){
+                .thankyou{
+                    display:none;
+                }
+                .mobile{
+                    display: none;
+                }
+                
+            }
+            @media (max-width:1200px){
+                .thankyou{
+                    display:none;
+                }
+
+            }
+            @media (min-width:567px) and  (max-width:768px){
+                .mobile{
+                    display:block;
+                    margin:50px 0 50px 50px;
+                }
+                 #main-icon span{
+                    font-size:11px;
+                }
+                .bottom-header h4{
+                    font-size:25px;
+                }
+                .bottom-header address{
+                    font-size:15px;
+                }
+            }
+            @media (max-width:480px){
+                #main-icon span{
+                    font-size:9px;
+                } 
+            }
+            
